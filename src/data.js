@@ -57,16 +57,16 @@ const propsData = [
   },
   {
     id: 9,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "McDonalds",
+    url: "https://www.mcdonalds.com/",
+    buttonStyle: "btn--mcdonalds",
     type: "button"
   },
   {
     id: 10,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "Nvidia",
+    url: "https://www.nvidia.com/",
+    buttonStyle: "btn--nvidia",
     type: "button"
   },
   {

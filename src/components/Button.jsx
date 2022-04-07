@@ -11,7 +11,9 @@ const STYLES = [
   "btn--twitter",
   "btn--linkedin",
   "btn--netflix",
-  "btn--amazon"
+  "btn--amazon",
+  "btn--mcdonalds",
+  "btn--nvidia"
 ];
 
 export const Button = ({ buttonStyle, name }) => {

@@ -20,6 +20,16 @@
 .btn:hover {
   transform: translateY(-3px);
 }
+/* Primary */
+.btn--primary {
+  background-color: transparent;
+  border: 2px solid #cccccc;
+  color: #cccccc;
+  padding: 14px 15px;
+  cursor: not-allowed !important;
+  text-decoration: none !important;
+}
+/* Google */
 .btn--google {
   background-color: var(--google);
   color: #3c4043;
@@ -41,6 +51,7 @@
   border: 1px solid #dadce0;
   color: #202124;
 }
+/* Tesla */
 .btn--tesla {
   background-color: #3e6ae1;
   border-color: transparent;
@@ -67,6 +78,7 @@
 .btn--tesla:hover {
   background-color: #3457b1;
 }
+/* Uber */
 .btn--uber {
   color: #ffffff;
   background-color: #000000;
@@ -87,7 +99,7 @@
 .btn--uber:hover {
   background-color: #333333;
 }
-
+/* Windows */
 .btn--windows {
   border-radius: 6px;
   text-align: center;
@@ -120,16 +132,7 @@
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
-
-.btn--primary {
-  background-color: transparent;
-  border: 2px solid #cccccc;
-  color: #cccccc;
-  padding: 14px 15px;
-  cursor: not-allowed !important;
-  text-decoration: none !important;
-}
-
+/* Twitter */
 .btn--twitter {
   background-color: rgba(0, 0, 0, 0);
   min-width: 32px;
@@ -158,6 +161,7 @@
 .btn--twitter:hover {
   background-color: rgba(29, 155, 240, 0.1);
 }
+/* Linkedin */
 .btn--linkedin {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 167ms;
@@ -196,6 +200,7 @@
   color: #0a66c2;
   box-shadow: inset 0 0 0 2px #0a66c2;
 }
+/* Netflix */
 .btn--netflix {
   background: transparent;
   border: none;
@@ -225,6 +230,7 @@
 .btn--netflix:hover {
   background: #f40612;
 }
+/* Amazon */
 .btn--amazon {
   background: -webkit-linear-gradient(top, #f7dfa5, #f0c14b);
   border-color: #a88734 #9c7e31 #846a29;
@@ -249,4 +255,48 @@
 }
 .btn--amazon:hover {
   background: -webkit-linear-gradient(top, #f3d48d, #f0bb37);
+}
+/* Mcdonalds */
+.btn--mcdonalds {
+  line-height: 1.25rem;
+  background-color: #ffbc0d;
+  border-radius: 4px;
+  padding: 0.8125rem 1.5625rem;
+  text-align: center;
+  display: inline-block;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  color: #292929;
+  text-decoration: none;
+  min-width: 11.125rem;
+  min-height: 3rem;
+  font-family: Speedee, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif;
+  letter-spacing: -0.15px;
+  font-size: 16px;
+}
+/* nvidia */
+.btn--nvidia {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+  border-radius: 0;
+  padding: 12px 10px 9px;
+  background-color: #76b900;
+  color: #ffffff;
+  font-weight: 600;
+  min-width: 125px;
+  height: auto;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  line-height: 1.2;
+  border: 1px solid #76b900;
+  box-sizing: border-box;
+  font-family: DINPro, Helvetica, Arial, Sans-Serif;
+}
+.btn--nvidia:hover {
+  background-color: #6aa700;
 }
