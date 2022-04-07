@@ -8,7 +8,10 @@ const STYLES = [
   "btn--tesla",
   "btn--uber",
   "btn--windows",
-  "btn--twitter"
+  "btn--twitter",
+  "btn--linkedin",
+  "btn--netflix",
+  "btn--amazon"
 ];
 
 export const Button = ({ buttonStyle, name }) => {

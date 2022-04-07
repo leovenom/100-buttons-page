@@ -36,23 +36,23 @@ const propsData = [
   },
   {
     id: 6,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "Linkedin",
+    url: "https://www.linkedin.com/",
+    buttonStyle: "btn--linkedin",
     type: "button"
   },
   {
     id: 7,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "netflix",
+    url: "https://www.netflix.com/",
+    buttonStyle: "btn--netflix",
     type: "button"
   },
   {
     id: 8,
-    name: "Button",
+    name: "Amazon",
     url: "",
-    buttonStyle: "",
+    buttonStyle: "btn--amazon",
     type: "button"
   },
   {
