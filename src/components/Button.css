@@ -1,0 +1,156 @@
+:root {
+  --primary: #4628ff;
+  --warning: #ffd028;
+  --danger: #eb3f27;
+  --success: green;
+  --white: #fdfdfd;
+  --dark: #281717;
+  --google: #f8f9fa;
+  --x: 0%;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+.btn--google {
+  background-color: var(--google);
+  color: #3c4043;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  user-select: none;
+}
+.btn--google:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+.btn--tesla {
+  background-color: #3e6ae1;
+  border-color: transparent;
+  border-radius: 32px;
+  align-items: center;
+  block-size: 40px;
+  color: #fff;
+  display: inline-block;
+  font-family: "Gotham SSm", BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 1.2;
+  padding: 4px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  border: 3px solid transparent;
+  background-color: #3e6ae1;
+  transition: border-color 0.33s ease, background-color 0.33s ease,
+    color 0.33s ease;
+}
+.btn--tesla:hover {
+  background-color: #3457b1;
+}
+.btn--uber {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 14px 15px;
+  border-radius: 0px;
+  font-size: 16px;
+  transition-timing-function: cubic-bezier(0, 0, 1, 1);
+  transition-duration: 200ms;
+  box-shadow: none;
+  border-style: none;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 500;
+  -webkit-box-align: center;
+  align-items: center;
+  line-height: 20px;
+}
+.btn--uber:hover {
+  background-color: #333333;
+}
+
+.btn--windows {
+  border-radius: 6px;
+  text-align: center;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 27px;
+  line-height: 1;
+  box-shadow: none;
+  background-color: #0067b8;
+  color: #ffffff;
+  white-space: normal;
+  text-transform: uppercase;
+  position: relative;
+  border: 2px solid transparent;
+  outline: 0;
+  vertical-align: middle;
+  font-size: 15px;
+  font-weight: 500;
+  max-width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  transition: all 200ms ease-in-out;
+  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn--windows:hover,
+.btn--windows:focus {
+  outline: none;
+  border: 2px solid transparent;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.btn--primary {
+  background-color: transparent;
+  border: 2px solid #cccccc;
+  color: #cccccc;
+  padding: 14px 15px;
+  cursor: not-allowed !important;
+  text-decoration: none !important;
+}
+
+.btn--twitter {
+  background-color: rgba(0, 0, 0, 0);
+  min-width: 32px;
+  min-height: 32px;
+  user-select: none;
+  outline-style: none;
+  transition-property: background-color, box-shadow;
+  transition-duration: 0.2s;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-style: solid;
+  border-radius: 9999px;
+  border-width: 1px;
+  border-color: rgb(207, 217, 222);
+  color: rgb(29, 155, 240);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+}
+.btn--twitter:hover {
+  background-color: rgba(29, 155, 240, 0.1);
+}
