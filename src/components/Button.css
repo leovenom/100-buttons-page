@@ -411,3 +411,24 @@
   background-color: #e45d60;
   transition: all 0.15s ease;
 }
+.btn--pier {
+  border: none;
+  max-width: 100%;
+  background: rgb(255, 103, 142);
+  border-radius: 4px;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  transition: background 0.3s ease 0s;
+  overflow: hidden;
+  transform: translate3d(0px, 0px, 0px);
+  height: 40px;
+  width: 183px;
+  font-family: Heebo, -apple-system, BlinkMacSystemFont, sans-serif,
+    "Segoe UI Symbol";
+}
+.btn--pier:hover {
+  background: rgb(255, 179, 199);
+}

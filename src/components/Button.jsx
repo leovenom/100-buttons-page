@@ -18,7 +18,8 @@ const STYLES = [
   "btn--facebook",
   "btn-spotify",
   "btn--slack",
-  "btn--lewagon"
+  "btn--lewagon",
+  "btn--pier"
 ];
 
 export const Button = ({ buttonStyle, name }) => {

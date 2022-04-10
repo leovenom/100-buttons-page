@@ -106,9 +106,9 @@ const propsData = [
   },
   {
     id: 16,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "PIER.",
+    url: "https://www.pier.digital/",
+    buttonStyle: "btn--pier",
     type: "button"
   },
   {
