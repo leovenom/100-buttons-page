@@ -71,30 +71,30 @@ const propsData = [
   },
   {
     id: 11,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "Nike",
+    url: "https://www.nike.com/",
+    buttonStyle: "btn--nike",
     type: "button"
   },
   {
     id: 12,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "Facebook",
+    url: "https://www.facebook.com/",
+    buttonStyle: "btn--facebook",
     type: "button"
   },
   {
     id: 13,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "Spotify",
+    url: "https://spotify.com/",
+    buttonStyle: "btn-spotify",
     type: "button"
   },
   {
     id: 14,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "Slack",
+    url: "https://slack.com/",
+    buttonStyle: "btn--slack",
     type: "button"
   },
   {

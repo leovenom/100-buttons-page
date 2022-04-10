@@ -13,7 +13,11 @@ const STYLES = [
   "btn--netflix",
   "btn--amazon",
   "btn--mcdonalds",
-  "btn--nvidia"
+  "btn--nvidia",
+  "btn--nike",
+  "btn--facebook",
+  "btn-spotify",
+  "btn--slack"
 ];
 
 export const Button = ({ buttonStyle, name }) => {

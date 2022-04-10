@@ -300,3 +300,89 @@
 .btn--nvidia:hover {
   background-color: #6aa700;
 }
+.btn--nike {
+  padding: 4.5px 18.5px;
+  border-radius: 30px;
+  border: 1.5px solid transparent;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn--nike:hover {
+  background: #757575;
+}
+.btn--facebook {
+  background-color: #1877f2;
+  height: 40px;
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 6px;
+  color: #fff;
+  width: auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular",
+    sans-serif;
+  line-height: 1.3333;
+  white-space: nowrap;
+  font-weight: 600;
+  -webkit-text-size-adjust: none;
+  font-size: 0.9375rem;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  width: calc(160px + 6px);
+  align-items: center;
+}
+.btn--facebook:hover {
+  background-color: #1b74e4;
+}
+.btn-spotify {
+  background-color: #1ed760;
+  color: #000000;
+  border-radius: 500px;
+  padding: 14px 32px;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: none;
+  letter-spacing: normal;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0px;
+  border-radius: 500px;
+  align-self: center;
+}
+.btn-spotify:hover {
+  transform: scale(1.04);
+  transition-duration: 33ms;
+  background-color: #1fdf64;
+}
+.btn--slack {
+  background-color: #4a154b;
+  color: #fff;
+  fill: #fff;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
+    Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2857;
+  letter-spacing: 0.8px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  padding: 19px 40px 20px;
+}
+.btn--slack:hover {
+  background-color: #4a154b;
+  color: #fff;
+  fill: #fff;
+  border-color: #4a154b;
+}
