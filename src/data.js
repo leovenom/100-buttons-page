@@ -99,9 +99,9 @@ const propsData = [
   },
   {
     id: 15,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "Le wagon",
+    url: "https://www.lewagon.com/",
+    buttonStyle: "btn--lewagon",
     type: "button"
   },
   {
