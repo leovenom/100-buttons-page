@@ -113,9 +113,9 @@ const propsData = [
   },
   {
     id: 17,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "SAMSUNG",
+    url: "https://www.samsung.com/",
+    buttonStyle: "btn--samsung",
     type: "button"
   },
   {
