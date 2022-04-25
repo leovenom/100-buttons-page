@@ -554,7 +554,24 @@
   line-height: 1.5;
   min-height: 36px;
   min-width: 160px;
+  font-weight: 544;
+  letter-spacing: 0.00065em;
 }
 .btn--notion:hover {
   background-color: #cf534a;
+}
+.btn--stack-overflow {
+  font-family: "Source Sans Pro Bold", sans-serif;
+  font-weight: 700;
+  background-color: hsl(27, 90%, 50%);
+  border: 1px solid transparent;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 12px 32px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn--stack-overflow:hover {
+  background-color: hsl(27, 90%, 45%);
 }

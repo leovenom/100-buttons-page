@@ -148,9 +148,9 @@ const propsData = [
   },
   {
     id: 22,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "Stack Overflow",
+    url: "https://stackoverflow.com/",
+    buttonStyle: "btn--stack-overflow",
     type: "button"
   },
   {
