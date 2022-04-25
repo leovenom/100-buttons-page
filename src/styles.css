@@ -3,8 +3,21 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  margin: 4vh 24vw;
 }
 
 button {
   margin: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .App {
+    margin: 4vh 8vw;
+  }
 }
