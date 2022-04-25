@@ -120,23 +120,23 @@ const propsData = [
   },
   {
     id: 18,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "Burguer King",
+    url: "https://www.bk.com/",
+    buttonStyle: "btn--burguer-king",
     type: "button"
   },
   {
     id: 19,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "Sotheby's",
+    url: "https://www.sothebys.com/",
+    buttonStyle: "btn--sothebys",
     type: "button"
   },
   {
     id: 20,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "Discord",
+    url: "https://discord.com/",
+    buttonStyle: "btn--discord",
     type: "button"
   },
   {

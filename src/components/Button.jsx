@@ -20,7 +20,10 @@ const STYLES = [
   "btn--slack",
   "btn--lewagon",
   "btn--pier",
-  "btn--samsung"
+  "btn--samsung",
+  "btn--burguer-king",
+  "btn--sothebys",
+  "btn--discord"
 ];
 
 export const Button = ({ buttonStyle, name }) => {
