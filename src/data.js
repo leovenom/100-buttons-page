@@ -141,9 +141,9 @@ const propsData = [
   },
   {
     id: 21,
-    name: "Button",
-    url: "",
-    buttonStyle: "",
+    name: "Notion",
+    url: "https://www.notion.so/",
+    buttonStyle: "btn--notion",
     type: "button"
   },
   {

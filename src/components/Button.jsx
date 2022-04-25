@@ -23,7 +23,8 @@ const STYLES = [
   "btn--samsung",
   "btn--burguer-king",
   "btn--sothebys",
-  "btn--discord"
+  "btn--discord",
+  "btn--notion"
 ];
 
 export const Button = ({ buttonStyle, name }) => {

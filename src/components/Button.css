@@ -541,3 +541,20 @@
   background-color: hsl(235, 86.1%, 71.8%);
   box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
 }
+.btn--notion {
+  color: #ffffff;
+  background-color: #e16259;
+  border: 1px solid #be5643;
+  box-shadow: 0 1px 2px rgb(15 15 15 / 10%);
+  padding: 6px 12px;
+  font-family: inter-var, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 17px;
+  line-height: 1.5;
+  min-height: 36px;
+  min-width: 160px;
+}
+.btn--notion:hover {
+  background-color: #cf534a;
+}
