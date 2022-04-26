@@ -10,14 +10,8 @@ button {
   margin: 4px;
 }
 
-@media only screen and (max-width: 600px) {
-  .App {
-    margin: 0 auto;
-  }
-}
-
 @media only screen and (max-width: 900px) {
   .App {
-    margin: 4vh 8vw;
+    margin: 4vh 6vw;
   }
 }
